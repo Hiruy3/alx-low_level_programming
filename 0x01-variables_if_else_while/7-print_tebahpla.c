@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description - print all single digit number
- * Return: always 0 (success)
- */
+* main - Print the alphabet in lowercase letters in reverse
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int a;
+	char letter;
 
-	a = 0;
-	while (a <= 9)
-	{
-		putchar(a + '0');
-		a++;
-	}
+	for (letter = 'z'; letter >= 'a'; letter--)
+	putchar(letter);
+
 	putchar('\n');
+
 	return (0);
 }
