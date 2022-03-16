@@ -1,20 +1,9 @@
-#include "main.h"
-/**
-* main - entry block
-*@void: no argument
-* Return: 0
-*/
+// Online C compiler to run C program online
+#include <stdio.h>
 
-int main(void)
-{
-	char Hiruy3[] = "_putchar";
-
-	int c;
-
-	for (c= 0; c < 8; c++)
-	{
-		_putchar(Hiruy3[c]);
-	}
-	_putchar('\n');
-	return (0);
+int main() {
+    // Write C code here
+    printf("_putchar");
+    
+    return 0;
 }
