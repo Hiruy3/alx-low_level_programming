@@ -1,9 +1,11 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
     // Write C code here
-    printf("_putchar");
+    char word[8] = "_putchar";
+    for(int i = 0; i < 9; i++){
+        printf("%c", word[i]);
+    }
     
     return 0;
 }
