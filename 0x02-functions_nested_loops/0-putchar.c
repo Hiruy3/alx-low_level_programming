@@ -1,11 +1,14 @@
 #include <stdio.h>
-
-int main() {
-    // Write C code here
-    char word[8] = "_putchar";
-    for(int i = 0; i < 9; i++){
-        printf("%c", word[i]);
-    }
-    
-    return 0;
+#include "main.h"
+/**
+ *main - main function
+ *
+ *Return:  0
+ **/
+int main(void)
+{
+char word[8] = "_putchar";
+for (int i = 0; i < 9; i++)
+_putchar("%c", word[i]);
+return (0);
 }
