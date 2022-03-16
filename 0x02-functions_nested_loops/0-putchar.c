@@ -14,6 +14,5 @@ while (i < 9)
 _putchar(word[i]);
 i++;
 }
-_putchar("\n");
 return (0);
 }
