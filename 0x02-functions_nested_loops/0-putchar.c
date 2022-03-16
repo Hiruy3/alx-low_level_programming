@@ -8,7 +8,10 @@
 int main(void)
 {
 char word[8] = "_putchar";
-for (int i = 0; i < 9; i++)
+while (i < 9)
+{
 _putchar(word[i]);
+i++;
+}
 return (0);
 }
