@@ -1,20 +1,20 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
-* main - Print the word "Holberton"
-*
-* Return: Always 0 (Success)
+* main - entry block
+*@void: no argument
+* Return: 0
 */
 
 int main(void)
 {
-	int i;
-	char p[] = "Holberton";
+	char Hiruy3[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
-		{
-		_putchar(p[i]);
-		}
-		_putchar('\n');
+	int c;
+
+	for (c= 0; c < 8; c++)
+	{
+		_putchar(Hiruy3[c]);
+	}
+	_putchar('\n');
 	return (0);
 }
