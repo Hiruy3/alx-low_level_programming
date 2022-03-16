@@ -1,18 +1,21 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+int _putchar(char c);
+
 /**
- *main - main function
+ * main - Entry point
  *
- *Return:  0
- **/
+ * Return: Always 0
+ */
 int main(void)
 {
-char word[8] = "_putchar";
-int i = 0;
-while (i < 9)
+char word[10] = "Holberton";
+int a = 0;
+while (a < 9)
 {
-_putchar(word[i]);
-i++;
+_putchar(word[a]);
+a++;
 }
+_putchar('\n');
 return (0);
 }
