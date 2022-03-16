@@ -9,6 +9,6 @@ int main(void)
 {
 char word[8] = "_putchar";
 for (int i = 0; i < 9; i++)
-_putchar("%c", word[i]);
+_putchar(word[i]);
 return (0);
 }
