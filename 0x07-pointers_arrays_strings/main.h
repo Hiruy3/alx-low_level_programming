@@ -20,4 +20,5 @@ void print_times_table(int n);
 void print_spaces(int n);
 void print_zero(void);
 char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 #endif
