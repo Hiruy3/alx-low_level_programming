@@ -6,7 +6,7 @@
  * @size: size of array
  * @action: pointer to the func to use
  *
- * Return: void
+ * Return: 0
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
@@ -19,4 +19,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 			action(array[i]);
 		}
 	}
+	return(0);
 }
+
